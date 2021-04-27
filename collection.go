@@ -468,6 +468,7 @@ func (c *Collection) Run(db DB, a ...string) (oldVersion, newVersion int64, err 
 
 			newVersion, err = c.runUp(db, tx, m)
 			if err != nil {
+				err = fmt.Errorf("migration %d, err %s", m.Version, err)
 				return
 			}
 
