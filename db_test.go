@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/go-pg/migrations/v7"
+	"github.com/temorfeouz/migrations/v7"
 
 	"github.com/go-pg/pg/v9"
 )
