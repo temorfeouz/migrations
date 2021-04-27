@@ -1,4 +1,4 @@
-module github.com/go-pg/migrations/v7
+module github.com/temorfeouz/migrations/v7
 
 go 1.11
 
